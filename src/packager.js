@@ -1,4 +1,4 @@
-// Packager (roadmap.md §5, §23): zip root contains exactly pet.json +
+// Packager: zip root contains exactly pet.json +
 // spritesheet.webp, under the 5MB limit. Shells out to the system `zip`
 // binary (already installed) instead of pulling in a zip library.
 

@@ -1,4 +1,4 @@
-// Background removal (roadmap.md §9).
+// Background removal.
 //
 // codex-pets' original approach special-cased green/magenta/checkerboard
 // with five separate pixel classifiers and fell through to a no-op for any

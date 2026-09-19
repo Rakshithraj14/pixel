@@ -1,4 +1,4 @@
-// Validator (roadmap.md §19, §21, §23): hard pass/fail checks instead of
+// Validator: hard pass/fail checks instead of
 // loose diagnostics, with clear, specific error messages.
 
 const fs = require("fs");

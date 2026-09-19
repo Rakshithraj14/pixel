@@ -1,4 +1,4 @@
-// preview.png (roadmap.md §19): a labeled contact sheet of the atlas, so a
+// preview.png: a labeled contact sheet of the atlas, so a
 // human can eyeball each animation row without decoding pet.json by hand.
 
 const sharp = require("sharp");

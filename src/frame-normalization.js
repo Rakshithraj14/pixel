@@ -1,5 +1,4 @@
-// Frame normalization (roadmap.md §13-16) — the gap the roadmap itself
-// flags as needing the most attention. codex-pets scaled and centered every
+// Frame normalization. codex-pets scaled and centered every
 // frame independently against its own bounding box, which lets characters
 // drift in size and bounce vertically between frames. This module instead:
 //   1. crops each source component tight (trim transparent padding)

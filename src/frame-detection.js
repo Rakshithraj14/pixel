@@ -1,4 +1,4 @@
-// Frame detection (roadmap.md §10-12): alpha-connected components, grouped
+// Frame detection: alpha-connected components, grouped
 // into source rows by vertical position, sorted left-to-right within a row.
 // Ported from codex-pets' build_codex_pet_atlas.js, which already got this
 // part right, plus a basic aspect-ratio guard to reject stray artifacts

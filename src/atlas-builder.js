@@ -1,4 +1,4 @@
-// Atlas builder (roadmap.md §6, §17-18): composites normalized frames onto
+// Atlas builder: composites normalized frames onto
 // a single grid, per-character cell size (not a hardcoded global grid, per
 // §6's recommendation), and exports a lossless WebP.
 

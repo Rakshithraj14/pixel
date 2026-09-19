@@ -1,4 +1,4 @@
-// Canonical animation set (roadmap.md §4) and defaults for turning detected
+// Canonical animation set and defaults for turning detected
 // source rows into named animations.
 
 const CANONICAL_ANIMATIONS = [
@@ -13,7 +13,7 @@ const CANONICAL_ANIMATIONS = [
 ];
 
 // Which alignment mode each animation should use when placing frames in a
-// cell (roadmap.md §16 — "sleeping" needs a different bounding-box policy
+// cell ("sleeping" needs a different bounding-box policy
 // than standing poses). Anything not listed defaults to "baseline".
 const ALIGNMENT_OVERRIDES = {
   sleep: "center",

@@ -1,9 +1,9 @@
-// JSON generator (roadmap.md §5, §20): builds pet.json from the atlas
+// JSON generator: builds pet.json from the atlas
 // layout instead of hand-writing it per character.
 
 const { DEFAULT_PERSONALITY } = require("./animation-map");
 
-// Sensible per-animation fps/loop defaults (roadmap.md §5's example),
+// Sensible per-animation fps/loop defaults,
 // overridable per row via row.fps/row.loop.
 const ANIMATION_DEFAULTS = {
   idle: { fps: 5, loop: true },
