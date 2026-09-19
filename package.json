@@ -1,0 +1,21 @@
+{
+  "name": "pixel",
+  "version": "1.0.0",
+  "description": "DeskForge character sprite pipeline",
+  "main": "cli.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "process": "node cli.js process",
+    "preview": "node preview-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "sharp": "^0.35.3"
+  }
+}

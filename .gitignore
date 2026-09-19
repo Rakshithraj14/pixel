@@ -1,0 +1,4 @@
+node_modules/
+.env
+characters/*/character.zip
+characters/*/.transparent-source.png
